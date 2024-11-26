@@ -16,10 +16,8 @@ __When:__ Saturday, March 7, 13 h 30
 __Where:__ at Foulab (999 du Collège, suite 33B, Montréal, Québec, Canada, H4C 2S3)  
 __Reserve:__ Please reserve with dmx7mars (at) stephanebarbeau.com as the number of places is limited  
 __Price:__ A $10 donation to the lab is suggested  
-  
-<CENTER>
+
 ## OUTLINE
-</CENTER>
 
 * Interface creation: Transmitter only (without programming)
     + Materials:

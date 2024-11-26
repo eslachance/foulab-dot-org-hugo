@@ -2,11 +2,8 @@
 headline = "ARTICLE"
 +++
 
-<center>
-<font color="red">
-POSTPONED DUE TO LACK OF SIGNUPS
-</font>
-</center>  
+<div style="text-align: center; color: red; margin-bottom: 20px;">POSTPONED DUE TO LACK OF SIGNUPS</div>
+
 <s>Nov 2 and 3</s> Postponed, Foulab will present two workshops. On Saturday, learn to bring visual interaction to your projects with Introduction to computer vision with OpenCV, and on Sunday, step up to modern graphics in your web applications with Introduction to WebGL. Each workshop will run from 13:00h to 17:00h. Workshop attendance is $30 each, or $50 to attend both workshops. Each workshop is limited to 20 places, so get 'em while they're hot.  
   
 [Tickets are for sale on eventbrite](https://opencvandwebgl.eventbrite.ca/) Each event alone is 30$, or 50$ to attend both.  
