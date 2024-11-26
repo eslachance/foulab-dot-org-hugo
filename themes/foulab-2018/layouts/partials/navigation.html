@@ -1,31 +1,36 @@
 <div class="nav" id="slider">
-	<h4>MENU</h4>
+  <h4>MENU</h4>
 
-	<ul>
-		<li><a href="/"            title="Home">          &nbsp;Home</a></li>
-		<li><a href="/news/"       title="Foulab News">   &nbsp;News</a></li>
-		<li><a href="/projects/"   title="Projects">      &nbsp;Projects</a></li>
-		<li><a href="/exposition/" title="The Lab">       &nbsp;The Lab</a></li>
-		<li><a href="/about/"      title="About Foulab">  &nbsp;About Foulab</a></li>
-		<li><a href="/location/"   title="Getting Here">  &nbsp;Getting Here</a></li>
-		<li><a href="/contact/"    title="Contact Foulab">&nbsp;Contact Foulab</a></li>
-		<li><a href="/calendar/"   title="Event Schedule">&nbsp;Event Schedule</a></li>
-	</ul>
-	
-	<h4>SUPPORT US</h4>
-	<section>
-		<div id='foulab-shopify-button'></div>
-		<script type="text/javascript" src="/js/shopifydonation.js"></script>
-		<a id="patreon-button" role="button" href="https://www.patreon.com/bePatron?u=6155868&redirect_uri=https%3A%2F%2Ffoulab.org%2Ftestbed%2F&utm_medium=widget">
-			<img src="/img/patreon-logo.svg" alt="Patreon logo" style="width: 14px; height: 14px;">
-			<span style="padding-right: 5px;"></span>Pledge Here</a>
-	</section>
-	
-	<h4>SPONSORED BY</h4>
-	<section>
-		{{ if .IsHome }}<a href="https://usedservers.ca" target="_blank">{{ end }}<img src="/img/usedservers.png" alt="Used Servers" style="width:100%; background-color:white; border-radius:3px;">{{ if .IsHome }}</a>{{ end }}
-		{{ if .IsHome }}<a href="https://canservers.com" target="_blank">{{ end }}<img src="/img/canservers.svg" alt="Canadian Servers" style="width:100%; background-color:white; padding: 4px 0px 4px 0px; border-radius: 3px">{{ if .IsHome }}</a>{{ end }}
-	</section>
+  <ul>
+    <li><a href="/" title="Home">Home</a></li>
+    <li><a href="/news/" title="Foulab News">News</a></li>
+    <li><a href="/projects/" title="Projects">Projects</a></li>
+    <li><a href="/exposition/" title="The Lab">The Lab</a></li>
+    <li><a href="/about/" title="About Foulab">About Foulab</a></li>
+    <li><a href="/location/" title="Getting Here">Getting Here</a></li>
+    <li><a href="/contact/" title="Contact Foulab">Contact Foulab</a></li>
+    <li><a href="/calendar/" title="Event Schedule">Event Schedule</a></li>
+  </ul>
+
+  <h4>SUPPORT US</h4>
+  <section>
+    <div id='foulab-shopify-button'></div>
+    <script type="text/javascript" src="/js/shopifydonation.js"></script>
+    <a id="patreon-button" role="button"
+      href="https://www.patreon.com/bePatron?u=6155868&redirect_uri=https%3A%2F%2Ffoulab.org%2Ftestbed%2F&utm_medium=widget">
+      <img src="/img/patreon-logo.svg" alt="Patreon logo" style="width: 14px; height: 14px;">
+      <span style="padding-right: 5px;"></span>Pledge Here</a>
+  </section>
+
+  <h4>SPONSORED BY</h4>
+  <section>
+    {{ if .IsHome }}<a href="https://usedservers.ca" target="_blank">{{ end }}<img src="/img/usedservers.png"
+        alt="Used Servers" style="width:100%; background-color:white; border-radius:3px;">{{ if .IsHome }}</a>{{ end }}
+    {{ if .IsHome }}<a href="https://canservers.com" target="_blank">{{ end }}<img src="/img/canservers.svg"
+        alt="Canadian Servers"
+        style="width:100%; background-color:white; padding: 4px 0px 4px 0px; border-radius: 3px">{{ if .IsHome }}</a>{{
+    end }}
+  </section>
 </div>
 
 <div class="clear"></div>
