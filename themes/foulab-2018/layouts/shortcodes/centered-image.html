@@ -1,6 +1,6 @@
 <img
   src="/media/image/{{ replace .Page.File.Dir "\\" "/"}}{{ .Page.File.BaseFileName }}/{{ .Get "src" }}"
-  {{ with .Get "height" }}height="{{ . }}"{{ end }}
-  {{ with .Get "width" }}width="{{ . }}"{{ end }}
+  height="{{ .Get "height" }}"
+  width="{{ .Get "width" }}"
   style="display: block; margin: 0 auto;"
 />
