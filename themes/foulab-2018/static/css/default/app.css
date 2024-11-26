@@ -67,7 +67,7 @@
 .tinybar img#icons {
     height: 20px;
     width: 20px;
-    transition: height .25s, width .25s;
+    transition: height .15s, width .15s;
 }
 
 .tinybar img#icons:hover {
@@ -106,13 +106,12 @@
     text-align: left;
     font-size: small;
     padding-left: 0px;
-    transition: background-color .5s linear, padding-left 1s;
+    transition: background-color .25s linear, padding-left .15s;
 }
 
 .nav li:hover {
     background-color: #bbbb;
     padding-left: 5px;
-    transition: background-color .5s linear, padding-left 1s;
 }
 
 /* Menu title color */
