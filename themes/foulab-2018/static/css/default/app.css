@@ -117,6 +117,13 @@
 /* Menu title color */
 .nav h4 {
     color: white;
+    border-bottom: 1px solid #4a4a4a;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.nav h4:not(:first-child) {
+    margin-top: 1.5em;
 }
 
 .nav a:active, .nav a:link, .nav a:visited
@@ -128,17 +135,11 @@
     text-decoration: none;
 }
 
-
-/* Other Elements */
-.nav hr {
-    height: 0px;
-    padding: 0px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border: solid #4a4a4a;
-    border-width: 1px 0 0 0;
+.nav section {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: column;
 }
 
 #status {
