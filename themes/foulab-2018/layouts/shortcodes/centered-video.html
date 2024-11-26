@@ -1,8 +1,9 @@
 <video src="/media/video/{{ replace .Page.File.Dir "\\" "/" }}{{ .Page.File.BaseFileName }}/{{ .Get "src" }}"
-  {{ with .Get "height" }}height="{{ . }}"{{ end }}
-  {{ with .Get "width" }}width="{{ . }}"{{ end }}
+  height="{{ .Get "height" }}"
+  width="{{ .Get "width" }}"
   preload
-  autoplay
+  {{ if .Get "disableautoplay" }}{{ else }}autoplay{{ end }}
+  controls="{{ .Get "controls" }}"
   loop
   muted
   style="display: block; margin: 0 auto;"
