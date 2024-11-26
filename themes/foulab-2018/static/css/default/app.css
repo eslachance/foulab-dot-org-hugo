@@ -292,7 +292,7 @@ span.username {
 }
 span.useroptions a {
     color: #5c5f2b;
-    font-size: normal;
+    font-weight: normal;
 }
 
 span.acl,
