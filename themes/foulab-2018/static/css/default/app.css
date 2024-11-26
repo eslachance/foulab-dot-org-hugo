@@ -67,7 +67,7 @@
 .tinybar img#icons {
     height: 20px;
     width: 20px;
-    transition: height .25s, width .25s;
+    transition: height .15s, width .15s;
 }
 
 .tinybar img#icons:hover {
@@ -106,18 +106,24 @@
     text-align: left;
     font-size: small;
     padding-left: 0px;
-    transition: background-color .5s linear, padding-left 1s;
+    transition: background-color .25s linear, padding-left .15s;
 }
 
 .nav li:hover {
     background-color: #bbbb;
     padding-left: 5px;
-    transition: background-color .5s linear, padding-left 1s;
 }
 
 /* Menu title color */
 .nav h4 {
     color: white;
+    border-bottom: 1px solid #4a4a4a;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.nav h4:not(:first-child) {
+    margin-top: 1.5em;
 }
 
 .nav a:active, .nav a:link, .nav a:visited
@@ -129,17 +135,11 @@
     text-decoration: none;
 }
 
-
-/* Other Elements */
-.nav hr {
-    height: 0px;
-    padding: 0px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border: solid #4a4a4a;
-    border-width: 1px 0 0 0;
+.nav section {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: column;
 }
 
 #status {
@@ -293,7 +293,7 @@ span.username {
 }
 span.useroptions a {
     color: #5c5f2b;
-    font-size: normal;
+    font-weight: normal;
 }
 
 span.acl,
@@ -339,4 +339,18 @@ div.warningbox {
     border: 1px #b80000 solid;
     background-color: #dcb7b7;
     font-weight: bold;
+}
+
+#patreon-button {
+    display: inline-block;
+    font-family: sans-serif;
+    background: #e6461a;
+    color: white;
+    padding: 3px 15px 3px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    user-select: none;
+    border: 1px solid #e6461a;   
 }
