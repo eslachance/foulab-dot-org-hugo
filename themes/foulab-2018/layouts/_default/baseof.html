@@ -21,21 +21,20 @@
 
   <body>
     <canvas id="gl_canvas_bg"></canvas>
-    
-    <div class="wrapper">
-      {{ block "header" . }}
+    <div id="main">
       {{ partial "header.html" . }}
-      {{ end }}
-      <div class="contentwrapper">
-	    	<div class="content">
+      <div id="content-wrapper">
+        <div id="content">
           <div class="content-headline">
             {{ block "headline" .}}<b>{{ index .Params "topic" | default "foulab.org" }}</b> / {{ index .Params "headline" | default "Welcome to Foulab!" }}{{ end }}
           </div>
-      	  {{ block "main" . }}{{ end }}
-	      </div>
-      	{{ partial "navigation.html" . }}
+          {{ block "main" . }}{{ end }}
+        </div>
+        {{ partial "navigation.html" . }}      
       </div>
       {{ partial "footer.html" . }}
     </div>
+    {{ partial "wisdom.html" . }}
+
   </body>
 </html>
