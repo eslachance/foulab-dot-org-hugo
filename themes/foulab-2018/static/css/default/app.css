@@ -103,13 +103,13 @@
     background-color: transparent;
 }
 
-.tinybar img#icons {
+.tinybar img.icons {
     height: 20px;
     width: 20px;
     transition: height .15s, width .15s;
 }
 
-.tinybar img#icons:hover {
+.tinybar img.icons:hover {
     height: 35px;
     width: 35px;
     transition: height .15s, width .15s;
@@ -146,7 +146,7 @@
   font-weight: bold;
 }
 
-#content ntitle {
+#content .ntitle {
   color: #960000;
   font-weight: bold;
   font-size: 14pt;
@@ -155,7 +155,7 @@
   padding: 0px;
 }
 
-#content ntrace {
+#content .ntrace {
   font-size: 8pt;
   font-family: monospace;
   color: #777777

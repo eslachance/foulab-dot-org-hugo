@@ -1,6 +1,7 @@
 <video src="/media/video/{{ replace .Page.File.Dir "\\" "/" }}{{ .Page.File.BaseFileName }}/{{ .Get "src" }}"
-  height="{{ .Get "height" }}"
-  width="{{ .Get "width" }}"
+  {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+  {{ with .Get "height" }}height="{{ . }}"{{ end }}
+  {{ with .Get "width" }}width="{{ . }}"{{ end }}
   preload
   {{ if .Get "disableautoplay" }}{{ else }}autoplay{{ end }}
   controls="{{ .Get "controls" }}"
